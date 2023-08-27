@@ -50,7 +50,7 @@ To change logo you can change src in line 226
 ```bash
 cd /opt/marzban
 apt install wget
-wget https://cdn.jsdelivr.net/gh/MuhammadAshouri/marzban-templates@master/template-01/index.html
+wget https://raw.githubusercontent.com/wikm360/mainsub/master/template-01/index.html
 ```
 
 حالا باید این فایل به به داکر مپ کنید. خط آخر رو به بخش volumes فایل `docker-compose.yml` اضافه کنید:
