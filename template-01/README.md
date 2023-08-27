@@ -11,7 +11,7 @@ First you need to copy [html file](https://github.com/MuhammadAshouri/marzban-te
 ```bash
 cd /opt/marzban
 apt install wget
-wget https://cdn.jsdelivr.net/gh/MuhammadAshouri/marzban-templates@master/template-01/index.html
+wget https://raw.githubusercontent.com/wikm360/mainsub/master/template-01/index.html
 ```
 
 Then you have to map it to your docker container. Add this line to volume section of `docker-compose.yml`:
